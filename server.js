@@ -10,9 +10,9 @@ app.set('view engine', 'ejs');
 // index page
 app.get('/', function(req, res) {
   let mascots = [
-    { name: 'Sammy', organization: "DigitalOcean", birth_year: 2012},
-    { name: 'Tux', organization: "Linux", birth_year: 1996},
-    { name: 'Moby Dock', organization: "Docker", birth_year: 2013}
+    { name: 'Sammy', organization: "DigitalOcean", birthYear: 2012},
+    { name: 'Tux', organization: "Linux", birthYear: 1996},
+    { name: 'Moby Dock', organization: "Docker", birthYear: 2013}
   ];
   let tagline = "No programming concept is complete without a cute animal mascot.";
 
